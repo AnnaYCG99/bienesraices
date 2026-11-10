@@ -38,7 +38,7 @@
         <img loading="lazy" src="/imagenes/<?php echo $propiedad['imagen']; ?>" alt="imagen de la propiedad">
 
         <div class="resumen-propiedad">
-            <p class="precio">$<?php echo $propiedad['precio']; ?></p>
+            <p class="precio">$<?php echo number_format($propiedad['precio']); ?></p>
             <ul class="iconos-caracteristicas">
                 <li>
                     <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
@@ -54,7 +54,7 @@
                 </li>
             </ul>
 
-            <?php echo $propiedad['descripcion']; ?>
+            <p><?php echo $propiedad['descripcion']; ?></p>
 
         </div>
     </main>
