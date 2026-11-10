@@ -19,11 +19,11 @@
         //var_dump($email);
 
         if(!$email) {
-            $errores[] ="El email es obliagtorio o no es válido";
+            $errores[] ="El email es obligatorio o no es válido";
         }
 
         if(!$password) {
-            $errores[] ="El Password es obligatiro o incorrecto"; 
+            $errores[] ="El Password es obligatorio o incorrecto"; 
         }
 
         // echo "<pre>";
